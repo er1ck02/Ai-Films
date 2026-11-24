@@ -1,6 +1,6 @@
 # Content MAX: progress report
 
-**As of:** 23 November 2026 · **Written by:** Claude (the build team) · **Status:** private drafts only, nothing published
+**As of:** 24 November 2026 (first written 23 November) · **Written by:** Claude (the build team) · **Status:** private drafts only, nothing published
 
 This repository is public, so this report leaves out personal details, account details, machine paths and credentials. The full working files live in the project's private workspace.
 
@@ -36,7 +36,9 @@ Next: render the first showcase clip, build the Blender templates and produce fo
 | 23 Nov | **Phase 4, workforce runtime**: agents pick up and complete tasks, automatic independent review, render job queue, PC worker client, scene spec format. |
 | 23 Nov | **Format research**: 70 niche searches, 950 Shorts, 36 channels profiled. Findings folded into the researcher's prompt and the topic scorer. |
 | 23 Nov | **Brand**: name "Assembly Reel", logo and cover art, Facebook page created, page kit and visual layout spec written. |
-| 23 Nov (in progress) | Showcase render (a pin tumbler lock cutaway), Blender templates, four draft shorts. Waiting on PC time. |
+| 23 Nov | ChatGPT answered its first request (R-007, audience and visual strategy). |
+| 24 Nov | PC checks passed. Final render of the pin tumbler lock showcase running on the PC. ChatGPT's findings reviewed and folded into the plan (section 11). |
+| 24 Nov (in progress) | Blender templates, four draft shorts, and the automatic video pipeline (topic to private draft). |
 
 ---
 
@@ -205,7 +207,7 @@ Virlo and vidIQ are connected but have no credits; research used YouTube directl
 
 ## 9. What is next
 
-1. Render the pin tumbler lock showcase clip.
+1. Finish the pin tumbler lock showcase (final render running).
 2. Build the first three Blender templates (`assembly_sequence`, `mechanism_loop`, `process_line`).
 3. Produce four private draft shorts: four-stroke engine loop, gasoline vs diesel, hydraulic press, bridge built at sea.
 4. Owner reviews the showcase and the voice sample and says whether the standard is OK.
@@ -219,3 +221,25 @@ Virlo and vidIQ are connected but have no credits; research used YouTube directl
 ## 10. Working with ChatGPT
 
 The [`chatgpt/`](chatgpt/) folder is a shared workspace. We post requests in [`chatgpt/REQUESTS.md`](chatgpt/REQUESTS.md); ChatGPT does the research and writes its findings into [`chatgpt/findings/`](chatgpt/findings/) using the template; we read them, check them, and use what holds up. Instructions for ChatGPT are in [`chatgpt/README.md`](chatgpt/README.md).
+
+---
+
+## 11. What we took from ChatGPT (24 Nov)
+
+ChatGPT answered one request so far: **R-007, audience trends and visual strategy** ([findings](chatgpt/findings/R-007-audience-trends-visual-strategy.md)). We checked its two key Meta sources and they say what it quoted: original Facebook Reels roughly doubled in views and watch time in late 2025, re-uploads and lightly edited clips are pushed down, and Facebook's recommender leans on viewer surveys about whether a video matches their interests.
+
+**Adopted:**
+
+| Change | Where it goes |
+|---|---|
+| New topic category: **engineering failures** (bridge oscillation, buckling, stripped gears, burst pipes) | Topic backlog, researcher; fact sheets requested from ChatGPT (R-008) |
+| Shot rules: show **cause and effect** together on screen, and end on a **physical payoff** (the machine visibly doing the work) | Production planner and Blender templates; first applied to the hydraulic press and engine drafts |
+| **First 20 videos as an experiment**: 6 everyday mechanisms, 5 construction, 5 engineering failures, 4 satisfying processes | Content calendar |
+| **Hook A/B test**: visual-first vs question on screen, object always already moving | Creative director |
+| **Two runtime bands**: 20 to 35 s and 35 to 55 s, never padded | Creative director |
+| **Scorecard at 24 h and 7 days**, weighting shares, saves and follows above views | Growth analyst, once the page is public |
+| Mechanical sound synced to motion | Already in the layout spec; free sources requested (R-009) |
+
+**Not adopted:** a new positioning line (ours stays, to match the live page), Graph API analytics until the page is public, and third-party view-count examples that were only directional.
+
+Open requests for ChatGPT: R-001 to R-006, plus new R-008 (engineering-failure fact sheets) and R-009 (free sound design).

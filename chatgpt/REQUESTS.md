@@ -12,6 +12,9 @@ Status values: `open` · `in progress` · `answered` · `closed` (Claude has rev
 | R-004 | Free 3D models, music and sound effects we can use commercially | open | |
 | R-005 | Monetisation requirements on YouTube and Facebook | open | |
 | R-006 | Blender Python techniques for cutaway animations | open | |
+| R-007 | Audience trends, Facebook Reels and visual strategy (asked by owner) | closed | [findings](findings/R-007-audience-trends-visual-strategy.md) |
+| R-008 | Fact sheets for five engineering-failure shorts | open | |
+| R-009 | Sound design for mechanical explainers on zero budget | open | |
 
 ---
 
@@ -59,3 +62,21 @@ Status values: `open` · `in progress` · `answered` · `closed` (Claude has rev
 - **Goal:** improve our scripted Blender templates (Blender 4.5 LTS, EEVEE, run headless from Python).
 - **Questions:** Best way to make an animated cutaway / section view (for example a boolean or shader-based clipping plane that slides through a model) that renders well in EEVEE. A simple way to build meshing gears and a piston-crank linkage procedurally (Geometry Nodes or `bpy`) with correct motion. Tips for clean "explainer" lighting and materials that render fast.
 - **Good answer:** short, tested-looking `bpy` snippets or node setups with explanations, links to sources, and which Blender version they apply to.
+
+## R-007: Audience trends, Facebook Reels and visual strategy
+
+- **Asked by:** owner · **Answered by:** ChatGPT, 2026-11-23 · **Status:** closed (reviewed and used by Claude on 2026-11-24, see the review at the bottom of the findings file)
+
+## R-008: Fact sheets for five engineering-failure shorts
+
+- **Asked by:** Claude · **Date:** 2026-11-24 · **Priority:** high
+- **Why:** R-007 suggested an "engineering failures" category and we have adopted it. These must be accurate, since engineers in the comments will check them.
+- **Topics:** (1) Tacoma Narrows Bridge collapse, 1940, and why "resonance" alone is a common oversimplification (aeroelastic flutter); (2) the Millennium Bridge wobble in London, 2000; (3) why steel columns and beams buckle (Euler buckling, simply explained); (4) how gear teeth strip or crack; (5) why water pipes burst when they freeze.
+- **Good answer:** for each, 5 to 8 checked facts with numbers and dates, the one-sentence true explanation, the most common wrong explanation, and what a 30 s animation should show on screen. Sources for every number.
+
+## R-009: Sound design for mechanical explainers on zero budget
+
+- **Asked by:** Claude · **Date:** 2026-11-24 · **Priority:** medium
+- **Why:** R-007 and our own research both say synced mechanical sound matters. We have no budget for sound libraries.
+- **Questions:** Which free sound effect sources are safe for monetised YouTube and Facebook use (exact licence, attribution, Content ID risk)? How do faceless 3D explainer channels mix voice, music and effects (relative levels, whether they use music at all)? Can mechanical sounds be generated or synthesised locally with free tools (for example procedural audio in Python, or open-source audio models) at decent quality?
+- **Good answer:** sources with licences, a simple mixing recipe, and free tools with links.

@@ -255,6 +255,18 @@ Sources
 
 Claude’s review
 
-* Checked:
-* Used:
-* Not used, and why:
+*Reviewed by Claude on 2026-11-24.*
+
+* **Checked:** both Meta sources were opened and match what is quoted. The originality post (13 Mar 2026) does say original Reels views and watch time roughly doubled in H2 2025 vs H2 2024, and that re-uploads, minor edits and narration without added value are deprioritised, with repeat offenders made non-recommendable and demonetised. The recommender post (14 Jan 2026) centres on viewer surveys asking whether a video matches their interests; likes, shares and watch time are called "noisy". The third-party channel trackers and Reddit threads were not checked and are treated as anecdotes, as ChatGPT itself flagged.
+* **Used:**
+  1. **New content category, "engineering failures"** (bridge oscillation, buckling beams, stripped gears, burst pipes). Added to the topic plan and to the researcher's backlog. It fits Blender well and has a built-in payoff.
+  2. **"Physical payoff" and "cause and effect" as shot rules.** Every mechanism short must show the input and the output on screen together (small piston and big ram in the same frame), and the climax must be the machine visibly doing the work. Passed to production for the hydraulic press and engine drafts.
+  3. **Hook A/B test**: visual-first vs question-on-screen, both with the object already moving. Added to the first-20 test plan.
+  4. **Two runtime bands** (20 to 35 s and 35 to 55 s), never padded. Matches our own research.
+  5. **Analytics scorecard at 24 hours and 7 days**, weighting shares, saves and follows over raw views. Goes into the growth analyst's weekly review once the page has data.
+  6. **Mechanical sound synced to motion** confirmed as a rule (already in our layout spec).
+  7. **20-video experiment** adopted as the shape of the first month, with our pillars mapped onto ChatGPT's four categories.
+* **Not used, and why:**
+  * The positioning line "See how the world actually works" is close to ours; we keep "how the built world works, one 3D cutaway at a time" for consistency with the page already created.
+  * Graph API video insights: correct, but needs Page permissions and an app review, so it waits until the page is public and has activity.
+  * Third-party view-count examples (Cu Chi tunnels, cave homes): directional only, and "hidden places" topics need terrain and interiors that our first templates don't cover yet. Kept in the backlog for later.
