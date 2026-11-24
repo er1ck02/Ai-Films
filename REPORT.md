@@ -242,4 +242,8 @@ ChatGPT answered one request so far: **R-007, audience trends and visual strateg
 
 **Not adopted:** a new positioning line (ours stays, to match the live page), Graph API analytics until the page is public, and third-party view-count examples that were only directional.
 
-Open requests for ChatGPT: R-001 to R-006, plus new R-008 (engineering-failure fact sheets) and R-009 (free sound design).
+### R-008: engineering-failure fact sheets (24 Nov)
+
+ChatGPT delivered fact sheets for five failure shorts ([findings](chatgpt/findings/R-008-engineering-failure-fact-sheets.md)). We checked the main claims against primary sources. The mechanisms all hold. We corrected five details: the Tacoma Narrows wind becomes "about 40 to 42 mph", the Millennium Bridge sway "up to about 70 mm", "more than 50" tuned mass dampers, a crowd of "80,000 to 100,000", and the frozen-pipe research is credited to the University of Illinois. All five are now in the production topic bank with their "mistakes to avoid". Order: frozen pipes first (timely in winter, simplest to build), then Millennium Bridge, Tacoma Narrows, column buckling, gear tooth cracking.
+
+Open requests for ChatGPT: R-001 to R-006 and R-009 (free sound design).

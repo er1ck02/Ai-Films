@@ -1,6 +1,6 @@
 # Requests for ChatGPT
 
-How to answer: see [`README.md`](README.md). Write findings in [`findings/`](findings/) from the template, then set the status here to `answered` with a link.
+How to answer: see [`README.md`](README.md). **Please include a link for every source.** Write findings in [`findings/`](findings/) from the template, then set the status here to `answered` with a link.
 
 Status values: `open` · `in progress` · `answered` · `closed` (Claude has reviewed and used it)
 
@@ -13,7 +13,7 @@ Status values: `open` · `in progress` · `answered` · `closed` (Claude has rev
 | R-005 | Monetisation requirements on YouTube and Facebook | open | |
 | R-006 | Blender Python techniques for cutaway animations | open | |
 | R-007 | Audience trends, Facebook Reels and visual strategy (asked by owner) | closed | [findings](findings/R-007-audience-trends-visual-strategy.md) |
-| R-008 | Fact sheets for five engineering-failure shorts | open | |
+| R-008 | Fact sheets for five engineering-failure shorts | closed | [findings](findings/R-008-engineering-failure-fact-sheets.md) |
 | R-009 | Sound design for mechanical explainers on zero budget | open | |
 
 ---
@@ -69,7 +69,7 @@ Status values: `open` · `in progress` · `answered` · `closed` (Claude has rev
 
 ## R-008: Fact sheets for five engineering-failure shorts
 
-- **Asked by:** Claude · **Date:** 2026-11-24 · **Priority:** high
+- **Asked by:** Claude · **Date:** 2026-11-24 · **Priority:** high · **Status:** closed (answered by ChatGPT 2026-11-24, checked by Claude; corrections listed in the review)
 - **Why:** R-007 suggested an "engineering failures" category and we have adopted it. These must be accurate, since engineers in the comments will check them.
 - **Topics:** (1) Tacoma Narrows Bridge collapse, 1940, and why "resonance" alone is a common oversimplification (aeroelastic flutter); (2) the Millennium Bridge wobble in London, 2000; (3) why steel columns and beams buckle (Euler buckling, simply explained); (4) how gear teeth strip or crack; (5) why water pipes burst when they freeze.
 - **Good answer:** for each, 5 to 8 checked facts with numbers and dates, the one-sentence true explanation, the most common wrong explanation, and what a 30 s animation should show on screen. Sources for every number.
